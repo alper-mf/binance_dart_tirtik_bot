@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:tirtik_app/app/models/exchange_info.dart';
 import 'package:tirtik_app/app/repositories/response.dart';
 
@@ -9,9 +10,9 @@ Future<void> main() async {
 
   try {
     exchangeInfoModel = await HttpResponse.getExchangeInfo();
-    print(exchangeInfoModel.symbols![0].baseAsset!);
+    debugPrint(exchangeInfoModel.symbols![0].baseAsset!);
   } catch (e) {
-    print(e);
+    debugPrint(e.toString());
     rethrow;
   }
 
@@ -38,5 +39,5 @@ Future<void> main() async {
     assets.toSet();
   }
 
-  print(assets.length);
+  debugPrint(assets.length.toString());
 }
