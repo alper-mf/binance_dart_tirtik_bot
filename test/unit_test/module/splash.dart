@@ -1,5 +1,4 @@
-import 'package:test/test.dart';
-
+import 'package:flutter_test/flutter_test.dart';
 import 'package:tirtik_app/app/extension/general_extension.dart';
 import 'package:tirtik_app/app/models/exchange_info.dart';
 import 'package:tirtik_app/app/repositories/general.dart';

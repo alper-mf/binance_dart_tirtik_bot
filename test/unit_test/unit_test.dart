@@ -1,4 +1,5 @@
-import 'package:test/test.dart';
+import 'package:flutter_test/flutter_test.dart';
+
 import 'model/unit_test_model.dart';
 import 'module/splash.dart' as splash;
 

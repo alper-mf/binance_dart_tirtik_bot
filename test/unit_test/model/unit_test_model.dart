@@ -1,5 +1,3 @@
-import 'package:tirtik_app/app/constant/http_url.dart';
-
 class UnitTestModel {
   static final _instance = UnitTestModel._();
   UnitTestModel._();
